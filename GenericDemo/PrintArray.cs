@@ -15,5 +15,21 @@ namespace GenericDemo
                 Console.WriteLine(" " + element + " ");
             }
         }
+
+        public static void ToPrint(double[] doubleArray)
+        {
+            foreach (double element in doubleArray)
+            {
+                Console.WriteLine(" " + element + " ");
+            }
+        }
+
+        public static void ToPrint(char[] charArray)
+        {
+            foreach (char element in charArray)
+            {
+                Console.WriteLine(" " + element + " ");
+            }
+        }
     }
 }
